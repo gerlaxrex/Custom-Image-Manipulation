@@ -15,10 +15,10 @@ All the algorithms have been tested, as you can see from the following GIFs:
 ### Blob detection and Object tracking
 
 ![recursiveAlg](https://user-images.githubusercontent.com/36633875/111853047-9dd37200-8919-11eb-85f6-0a76e11168de.gif)<br>
-*Recursive Algorithm: here the algorithm tracks a blue joystick. Even though this algorithm is quite precise, it requires a lot of computational effort, especially for big images.*
+* **Recursive Algorithm**: here the algorithm tracks a blue joystick. Even though this algorithm is quite precise, it requires a lot of computational effort, especially for big images.*
 
 ![iterativeAlg](https://user-images.githubusercontent.com/36633875/111853214-57324780-891a-11eb-8442-acd8e76b26f7.gif)<br>
-*Iterative Algorithm: the recognition is noisier (a lot of small boxes appear in the image) but it can be observed a faster execution of the image processing. *
+* **Iterative Algorithm**: the recognition is noisier (a lot of small boxes appear in the image) but it can be observed a faster execution of the image processing. *
 
 ![sectorsAlg](https://user-images.githubusercontent.com/36633875/111853284-9bbde300-891a-11eb-99b1-04b1a334790c.gif)<br>
-*Sectorized Algorithm: in this case the algorithm highlights fixed image cells whenever the ratio of pixels matching the color bounds overcomes a fixed threshold. It is the less accurate method, but it is memory and time efficient.*
+* **Sectorized Algorithm**: in this case the algorithm highlights fixed image cells whenever the ratio of pixels matching the color bounds overcomes a fixed threshold. It is the less accurate method, but it is memory and time efficient.*
