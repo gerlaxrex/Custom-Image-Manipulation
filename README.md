@@ -6,9 +6,8 @@ The notebook contains some classe for the following tasks:
 - **Blob Detection** (implemented through recursive and iterative exact methods but also an approximate algorithm).
 - **Image Pixelation** (decrease an image definition by extracting the median color in a given area).
 
-
 The code has been then tested with my laptop webcam, taking some colors as input (extracted by the square at the center of the webcam image) and then tracking it.
-All the algorithms have been tested, as you can see from the following GIFs:
+All the algorithms have been tested with some coloured objects.
 
 ## Experiments
 
