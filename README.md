@@ -1,4 +1,4 @@
-# Custom-Image-Manipulation
+# Custom Image Manipulation notebook
 This repository contains some custom python code that has been used for a robotics project in which the robot had to detect some specific object inside an envirnoment and navigate towards or away from them.
 
 The notebook contains some classe for the following tasks:
@@ -21,3 +21,12 @@ All the algorithms have been tested with some coloured objects.
 
 ![sectorsAlg](https://user-images.githubusercontent.com/36633875/111853284-9bbde300-891a-11eb-99b1-04b1a334790c.gif)<br>
 ***Sectorized Algorithm**: in this case the algorithm highlights fixed image cells whenever the ratio of pixels matching the color bounds overcomes a fixed threshold. It is the less accurate method, but it is memory and time efficient.*
+
+### Image Segmentation
+
+The image segmentation module uses a K-means segmentation in order to compute the k-means for colors in an image. The color distance is computed as a simple euclidean distance between two colors.
+
+<img src="https://user-images.githubusercontent.com/36633875/112305199-b25b9580-8c9e-11eb-94d8-ed787504469b.png" width=250px> <img src="https://user-images.githubusercontent.com/36633875/112304831-3feab580-8c9e-11eb-8106-8d7bf55c2af6.png" width=250px><br>
+*A segmented image of one of the most beautiful squares in my hometown Palermo (4 colors only).*
+
+
