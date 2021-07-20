@@ -1,3 +1,5 @@
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-blue?logo=python)](https://www.python.org/)
+[![Made withJupyter](https://img.shields.io/badge/Run%20with-Jupyter-orange?logo=Jupyter)](https://jupyter.org/try) 
 # Custom Image Manipulation notebook
 This repository contains some custom python code that has been used for a robotics project in which the robot had to detect some specific object inside an envirnoment and navigate towards or away from them.
 
